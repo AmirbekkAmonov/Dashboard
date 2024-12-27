@@ -32,9 +32,8 @@ body {
   align-items: start;
 }
 .dashboard__content {
-  padding: 45px 43px 26px 49px;
-  width: 25%;
-  height: 100%;
+  padding: 45px 43px 53px 49px;
+  width: 23%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -505,7 +504,7 @@ body {
 }
 .dashboard__content3 {
   padding: 33px 30px;
-  width: 25%;
+  width: 27%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -552,7 +551,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 .dashboard__content3 .content3 .Payments {
   width: 100%;
@@ -588,4 +587,238 @@ body {
 }
 .dashboard__content3 .content3 .Payments button:hover {
   background-color: #efefef;
+}
+.dashboard__content3 .content3 .Received {
+  width: 100%;
+}
+.dashboard__content3 .content3 .Received_card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.dashboard__content3 .content3 .Received_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 17px;
+  border-radius: 10px;
+  transition: all 0.7s ease;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  box-shadow: 0px 21px 79px 0px rgba(0, 0, 0, 0.0784313725);
+}
+.dashboard__content3 .content3 .Received_text:hover {
+  background-color: #efefef;
+}
+.dashboard__content3 .content3 .Received_price {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.dashboard__content3 .content3 .Received_price .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.dashboard__content3 .content3 .Received_price .price_coin {
+  padding: 9px 10px;
+  border-radius: 50%;
+  background-color: #0404f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard__content3 .content3 .Received_price .price .arrow {
+  cursor: alias;
+}
+.dashboard__content3 .content3 .Received_price .price b {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13.19px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #0F1231;
+}
+.dashboard__content3 .content3 .Received_price p {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.81px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #1B1D4E;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 7px 27px 0px rgba(0, 0, 0, 0.0705882353);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard__content3 .content3 .transfer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 10px;
+  background-color: rgba(81, 69, 158, 0.2117647059);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.dashboard__content3 .content3 .transfer:hover {
+  background-color: rgba(98, 80, 214, 0.2117647059);
+}
+.dashboard__content3 .content3 .transfer_img {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  padding: 13px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 27px 0px rgba(0, 0, 0, 0.0588235294);
+}
+.dashboard__content3 .content3 .transfer_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.dashboard__content3 .content3 .transfer_text b {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13.19px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #51459E;
+}
+.dashboard__content3 .content3 .Wallets {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+.dashboard__content3 .content3 .Wallets h2 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 37.37px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #000000;
+}
+.dashboard__content3 .content3 .Wallets_cards {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 15px;
+  border-radius: 10px;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card:hover {
+  background-color: #efefef;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card_text .Wallets_card_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF3F1;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card_text .bp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card_text .bp b {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19.78px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #5D4E7B;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card_text .bp p {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12.72px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #5D4E7B;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card .ph5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card .ph5 p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19.78px;
+  text-align: right;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #5D4E7B;
+}
+.dashboard__content3 .content3 .Wallets_cards .Wallets_card .ph5 h5 {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16.54px;
+  text-align: right;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #50DFB2;
 }/*# sourceMappingURL=style.css.map */

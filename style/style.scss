@@ -36,9 +36,8 @@ body {
     }
 
     &__content {
-        padding: 45px 43px 26px 49px;
-        width: 25%;
-        height: 100%;
+        padding: 45px 43px 53px 49px;
+        width: 23%;
         display: flex;
         justify-content: left;
         align-items: center;
@@ -546,7 +545,7 @@ body {
 
     &__content3 {
         padding: 33px 30px;
-        width: 25%;
+        width: 27%;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -599,7 +598,7 @@ body {
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            gap: 30px;
+            gap: 40px;
 
             .Payments {
                 width: 100%;
@@ -635,6 +634,261 @@ body {
 
                     &:hover {
                         background-color: #efefef;
+                    }
+                }
+            }
+
+            .Received {
+                width: 100%;
+
+                &_card {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+
+                }
+
+                &_text {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                    padding: 17px;
+                    border-radius: 10px;
+                    transition: all 0.7s ease;
+                    cursor: pointer;
+                    background-color: #FFFFFF;
+                    box-shadow: 0px 21px 79px 0px #00000014;
+
+                    &:hover {
+                        background-color: #efefef;
+                    }
+
+                }
+
+                &_price {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+
+                    .price {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+
+                        &_coin {
+                            padding: 9px 10px;
+                            border-radius: 50%;
+                            background-color: #0404f8;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        .arrow {
+                            cursor: alias;
+                        }
+
+                        b {
+                            font-size: 12px;
+                            font-weight: 600;
+                            line-height: 13.19px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #0F1231;
+                        }
+                    }
+
+                    p {
+                        padding: 5px 10px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 17.81px;
+                        letter-spacing: -0.04em;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #1B1D4E;
+                        background-color: #ffffff;
+                        border-radius: 10px;
+                        box-shadow: 0px 7px 27px 0px #00000012;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+            }
+
+            .transfer {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 18px 10px;
+                background-color: #51459e36;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.7s ease;
+
+                &:hover {
+                    background-color: #6250d636;
+                }
+
+                &_img {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    left: 10px;
+                    transform: translateY(-50%);
+                    padding: 13px;
+                    background-color: #FFFFFF;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 0px 2px 27px 0px #0000000F;
+                }
+
+                &_text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    b {
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 13.19px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #51459E;
+                    }
+                }
+            }
+
+            .Wallets {
+                margin-top: 60px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                gap: 20px;
+
+                h2 {
+                    font-size: 34px;
+                    font-weight: 600;
+                    line-height: 37.37px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #000000;
+                }
+
+                &_cards {
+                    margin-top: 15px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .Wallets_card {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-direction: row;
+                        padding: 15px;
+                        border-radius: 10px;
+                        gap: 10px;
+                        cursor: pointer;
+                        transition: all 0.7s ease;
+
+                        &:hover {
+                            background-color: #efefef;
+                        }
+
+                        &_text {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: row;
+                            gap: 10px;
+                            .Wallets_card_img {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 7px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #FFF3F1;
+                            }
+                            .bp {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+                                gap: 5px;
+
+                                b {
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    line-height: 19.78px;
+                                    text-align: left;
+                                    text-underline-position: from-font;
+                                    text-decoration-skip-ink: none;
+                                    color: #5D4E7B;
+                                }
+
+                                p {
+                                    font-size: 10px;
+                                    font-weight: 600;
+                                    line-height: 12.72px;
+                                    text-align: left;
+                                    text-underline-position: from-font;
+                                    text-decoration-skip-ink: none;
+                                    color: #5D4E7B;
+                                }
+                            }
+                        }
+
+                        .ph5 {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            gap: 5px;
+
+                            p {
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 19.78px;
+                                text-align: right;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #5D4E7B;
+                            }
+
+                            h5 {
+                                font-size: 13px;
+                                font-weight: 600;
+                                line-height: 16.54px;
+                                text-align: right;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #50DFB2;
+                            }
+                        }
                     }
                 }
             }
