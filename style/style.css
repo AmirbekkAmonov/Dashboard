@@ -56,6 +56,10 @@ body {
     transition: all 0.3s ease;
     z-index: 1000;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+  }
+  .dashboard__content::-webkit-scrollbar {
+    display: none;
   }
 }
 .dashboard__content .close_button {
@@ -67,14 +71,14 @@ body {
 }
 @media (max-width: 1100px) {
   .dashboard__content .close_button {
-    display: block;
+    display: none;
     cursor: pointer;
     position: absolute;
     top: 0;
-    right: -14.1%;
+    right: 0;
     padding: 13px;
     background-color: #dbdada;
-    border-radius: 0px 10px 10px 0;
+    border-radius: 0px 0px 0px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +86,6 @@ body {
     box-shadow: 0px 2px 27px 0px rgba(0, 0, 0, 0.0588235294);
   }
   .dashboard__content .close_button:hover {
-    transform: scale(1.02);
     box-shadow: 0px 2px 27px 15px rgba(0, 0, 0, 0.0588235294);
   }
 }
@@ -614,6 +617,10 @@ body {
     transition: all 0.3s ease;
     z-index: 1000;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+  }
+  .dashboard__content3::-webkit-scrollbar {
+    display: none;
   }
 }
 .dashboard__content3 .close_button2 {
@@ -629,10 +636,10 @@ body {
     cursor: pointer;
     position: absolute;
     top: 0;
-    left: -11.5%;
-    padding: 5px;
+    left: 0;
+    padding: 2px;
     background-color: #dfdfe1;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 0px 0px 20px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -640,7 +647,6 @@ body {
     box-shadow: 0px 2px 27px 0px rgba(0, 0, 0, 0.0588235294);
   }
   .dashboard__content3 .close_button2:hover {
-    transform: scale(1.02);
     box-shadow: 0px 2px 27px 15px rgba(0, 0, 0, 0.0588235294);
   }
 }
